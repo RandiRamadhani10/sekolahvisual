@@ -1,0 +1,110 @@
+@import url('https://css.gg/chevron-left.css');
+@import url('https://css.gg/image.css');
+body {
+    font-family: 'arial';
+    margin: unset;
+    padding: unset;
+}
+table{
+    margin-top: 15px;
+}
+.con1>a{
+    color: black;
+    padding-right: 10px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+.con1>a:hover{
+    background-color:#ee2a7b;
+    color: white;
+    transition: 0.4s;
+    border: unset;
+}
+.con1>h3{
+    padding-right: 5px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.con1{
+    padding: unset;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: #f0f0f0;
+    border-bottom-style: outset;
+    border-bottom-color:rgba(0, 0, 0, 0.432);
+    border-bottom-width: 1px;
+    align-items: center stretch;
+
+}
+.btn{
+    background-color: #ee2a7b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ee2a7b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1{
+    padding: 10px 15px;
+}
+.button2{
+    padding: 10px 8px;
+}
+.btn:hover {
+    background-color:#f04c90;
+
+}
+button:hover {
+    background-color: #f04c90;
+}
+
+table {
+   
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #e2a6bf;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffc5dd;
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px;
+}

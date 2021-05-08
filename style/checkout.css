@@ -1,0 +1,141 @@
+body {
+    margin: unset;
+    padding: unset;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.con1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.con1>h4 {
+    margin: 5px;
+}
+
+.con3 {
+    overflow: hidden;
+    margin: 0px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    align-items: center;
+    box-shadow: 4px 6px #8888885d;
+    border: 1px solid gray;
+}
+
+.con3>h3 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.con3>h4 {
+    margin: 0px;
+}
+
+.con3>img {
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    margin: 10px;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    background-color: #ee2a7b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px 10px 0px;
+}
+
+.con1>form>button:focus {
+    outline: unset;
+    border-color: transparent;
+}
+
+.con1>form>button:hover {
+    background-color: whitesmoke;
+    box-shadow: 2px 3px #ee2a7b;
+    color: black;
+}
+
+a {
+    margin: 10px;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    background-color: #ee2a7b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px 10px 0px;
+}
+
+a:hover {
+    background-color: whitesmoke;
+    box-shadow: 2px 3px #ee2a7b;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+    .con2{
+        justify-content: center;
+        align-items: center;
+    }
+    .con1{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .con1>h3{
+        text-align: center;
+    }
+}
