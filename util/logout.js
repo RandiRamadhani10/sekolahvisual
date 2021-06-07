@@ -16,6 +16,5 @@ logout.addEventListener('click', event => {
                location.href ="../index.php";
             }).catch(err => console.log(err));
         }
-    })
-
+    });
 });

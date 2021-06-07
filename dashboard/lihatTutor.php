@@ -26,7 +26,7 @@ $no = 1;
         <h3>Tutor</h3>
     </div>
     <form action="" method="POSt" name="form">
-        <a class="button1 btn" href="tambahTutor.php">Tambah Tutor</a>
+        <a class="button1 btn" href="tambahmenu.php">Tambah menu</a>
         <table>
             <tr>
                 <th>No</th>
